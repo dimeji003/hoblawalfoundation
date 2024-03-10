@@ -4,7 +4,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 export default function Whoweare() {
   return (
-    <div className=' py-20 bg-gray-50'>
+    <div className=' py-32 bg-gray-50'>
         <div className='flex flex-row justify-between gap-10 w-[80%] m-auto'>
             <div className='w-[50%] '>
                 <Image src='/whoweare.jpg' alt='help' height={100} width={300} className='w-[100%] h-72 border rounded-xl'/>

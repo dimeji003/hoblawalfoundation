@@ -24,7 +24,7 @@ export default function Contact() {
             </div>
             <div>
                 <p className='text-gray-500 text-xs'>Email</p>
-                <h2>info@max.com</h2>
+                <h2>hoblawalfoundation@gmail.com</h2>
             </div>
         </div>
         <div className='flex flex-row items-center bg-blue-200 h-[100%] w-[33%] place-content-center gap-6'>

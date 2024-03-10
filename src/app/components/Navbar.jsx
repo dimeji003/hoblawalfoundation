@@ -10,13 +10,13 @@ export default function Navbar() {
 
     const router = useRouter()
   return (
-    <div className='flex md:flex-row justify-between md:px-6 md:h-16 items-center border-b-2 border-blue-700'>
+    <div className='flex md:flex-row justify-between md:px-20 md:h-16  items-center '>
         <div>
 
         <Image src= '/homepicture.jpg' alt="hob lawal foundation" height={50} width={50} className='m-auto ' />
         </div>
         
-        <ul className='flex flex-row gap-8 text-black text-xs'>
+        <ul className='flex flex-row gap-11 text-blue-700 text-xs '>
             <Link href='/'>
             <li>HOME</li>
             </Link>

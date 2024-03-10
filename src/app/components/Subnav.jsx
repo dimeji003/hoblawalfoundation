@@ -5,7 +5,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { BsInstagram } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa6";
 
-export default function Subnav() {
+export default function Subnav(){
   return (
     <div className='md:flex hidden flex-row h-8 justify-between px-24 bg-blue-700'>
         <div className='flex flex-row gap-10 items-center text-white text-xs'>

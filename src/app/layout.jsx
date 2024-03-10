@@ -1,9 +1,9 @@
 import { Raleway } from "next/font/google";
 import "./globals.css";
-import {Navbar} from "./components/Navbar";
+import Navbar from "./components/Navbar";
 
-import {Footer} from "./components/Footer";
-import {Subnav} from "./components/Subnav";
+import Footer from "./components/Footer";
+import Subnav from "./components/Subnav";
 
 
 

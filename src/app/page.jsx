@@ -1,3 +1,4 @@
+"use client"
 import Main from './components/Main'
 import React from 'react'
 import Whoweare from './components/Whoweare'

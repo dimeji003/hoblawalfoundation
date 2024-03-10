@@ -34,7 +34,7 @@ export default function Navbar() {
             <li>HOME</li>
             </Link>
             <li>ABOUT</li>
-            <Link href="#gallery" onClick={leaveNav}>
+            <Link href="/components/Gallery.jsx" onClick={leaveNav}>
             <li>GALLERY</li>
             </Link>
             <Link href='/hoblawal' onClick={leaveNav} >

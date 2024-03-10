@@ -13,7 +13,7 @@ export default function page() {
         <div className='flex flex-col gap-3 w-[40%]'>
             <p className='text-red-700 text-xs font-bold'>MISSION</p> 
             <h1 className='text-3xl text-black m-auto font-bold '>Lets help and Make People Smile by <span className='text-red-700'>Giving</span></h1>
-            <p className='text-sm text-gray-500'>Supporting various causes and initiatives aimed at creating positive social change.</p>
+            <p className='text-sm text-gray-500'>Through collaborative efforts and sustainable initiatives, we strive to empower individuals and foster positive social change, ultimately creating a more equitable and inclusive society.</p>
             <button className=' bg-blue-700 w-32 h-9 p-1 text-xs rounded-[6px] text-white md:mt-5'>DONATE NOW</button>
         </div>
         <div className='w-[50%]'><Image src= '/homepicture.jpg' alt="hob lawal foundation" height={200} width={200} className='w-[90%] h-72 m-auto md:mt-10 ' /></div>

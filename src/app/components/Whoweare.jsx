@@ -4,12 +4,12 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 
 export default function Whoweare() {
   return (
-    <div className=' py-32 bg-gray-50'>
-        <div className='flex flex-row justify-between gap-10 w-[80%] m-auto'>
-            <div className='w-[50%] '>
+    <div className=' py-32 bg-gray-100 px-9'>
+        <div className='flex md:flex-row flex-col justify-between gap-10 md:w-[80%] m-auto'>
+            <div className='md:w-[50%] '>
                 <Image src='/whoweare.jpg' alt='help' height={100} width={300} className='w-[100%] h-72 border rounded-xl'/>
             </div>
-            <div className='w-[50%] flex flex-col gap-3'>
+            <div className='md:w-[50%] flex flex-col gap-3'>
                 <p className='text-xs text-red-700'>WHO WE ARE</p>
                 <h1 className='text-2xl font-semibold'>We&apos;re a Non-Profit Charity Foundation</h1>
                 <p className='text-gray-500 text-xs'>Join us and make your life more valuable and useful, be a part of us and contribute to the nation and state in the simplest for the environment and yourself.</p>

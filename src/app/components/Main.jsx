@@ -24,20 +24,20 @@ export default function page() {
     </div>
         
 
-        <div className='grid grid-cols-3 gap-4 py-20 w-[80%] m-auto mt-[-140px] '>
-            <div className='flex flex-col items-center gap-3 bg-gray-300 p-5 rounded-[4px]'>
+        <div className='grid grid-cols-3 gap-4 py-20 w-[80%] m-auto mt-[-140px]'>
+            <div className='flex flex-col items-center gap-3 bg-gray-300 p-5 rounded-[4px] shadow-xl'>
             <FaHandBackFist className='text-5xl text-yellow-500' />
             <h2 className='flex flex-row gap-2 items-center'><GoDotFill className='text-red-700' />Empowerment<GoDotFill className='text-red-700'/></h2>
             <p className='text-sm text-gray-500 text-center'> Providing necessary tools for the skilled</p>
 
                 
             </div>
-            <div className='flex flex-col items-center gap-3 bg-gray-300 p-5 rounded-[4px]'>
+            <div className='flex flex-col items-center gap-3 bg-gray-300 p-5 rounded-[4px] shadow-xl'>
                 <SiBookstack className='text-5xl text-yellow-500'/>
                 <h2 className='flex flex-row gap-2 items-center'><GoDotFill className='text-red-700'/>Scholarship<GoDotFill className='text-red-700'/></h2>
                 <p className='text-sm text-gray-500'>Granting Scholarships to Indigents</p>
             </div>
-            <div className='flex flex-col items-center gap-3 bg-gray-300 p-5 rounded-[4px]'>
+            <div className='flex flex-col items-center gap-3 bg-gray-300 p-5 rounded-[4px] shadow-xl'>
             <GiLindenLeaf className='text-5xl text-yellow-500'/>
             <h2 className='flex flex-row gap-2 items-center'><GoDotFill className='text-red-700'/>Environment<GoDotFill className='text-red-700'/></h2>
             <p className='text-sm text-gray-500'>Helping to live life cleaner</p>

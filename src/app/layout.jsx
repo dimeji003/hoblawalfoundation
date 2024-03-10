@@ -1,4 +1,4 @@
-import { Montserrat } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import {Navbar} from "./components/Navbar";
 
@@ -7,7 +7,7 @@ import {Subnav} from "./components/Subnav";
 
 
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
   title: "HOB Lawal Foundation",
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body className={montserrat.className}>
+      <body className={raleway.className}>
         <Subnav />
         <Navbar />
 

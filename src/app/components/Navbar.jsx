@@ -28,13 +28,15 @@ export default function Navbar() {
         <Image src= '/homepicture.jpg' alt="hob lawal foundation" height={50} width={50} className='m-auto ' />
         </div>
         
-        <ul className={`flex md:flex-row place-content-center bg-blue-50 z-50 w-[100%] items-center md:bg-white fixed left-0 md:relative top-0 bottom-0 flex-col gap-11 md:text-blue-700 text-black md:text-xs text-xl transition-transform transform ease-in-out duration-500 ${showNav ? "translate-x-0" : "-translate-x-full md:translate-x-0"} `}>
+        <ul className={`flex md:flex-col lg:flex-row place-content-center bg-blue-50 z-50 w-[100%] items-center md:bg-white fixed left-0 md:relative top-0 bottom-0 flex-col gap-11 md:text-blue-700 text-black md:text-xs text-xl transition-transform transform ease-in-out duration-500 ${showNav ? "translate-x-0" : "-translate-x-full sm:hidden lg:flex lg:translate-x-0"} `}>
             <MdCancel className='md:hidden absolute top-3 right-3 text-3xl cursor-pointer' onClick={navMenu} />
             <Link href='/' onClick={leaveNav}>
             <li>HOME</li>
             </Link>
+            <Link href='/aboutus' onClick={leaveNav}>
             <li>ABOUT</li>
-            <Link href="/components/Gallery.jsx" onClick={leaveNav}>
+            </Link>
+            <Link href="/gallery" onClick={leaveNav}>
             <li>GALLERY</li>
             </Link>
             <Link href='/hoblawal' onClick={leaveNav} >
@@ -47,8 +49,8 @@ export default function Navbar() {
             
             
         </ul>
-        <div className='md:flex w-32 text-center flex-row gap-2 hidden  p-3 rounded-3xl text-black border-2 border-blue-700 items-center text-xs'>Contact Us <IoIosArrowForward /></div>
-        <RiMenu3Fill className=' text-2xl md:hidden fill-blue-600 cursor-pointer' onClick={navMenu}/>
+        <div className='lg:flex w-36 text-center flex-row gap-2 hidden   p-3 rounded-3xl text-black border-2 border-blue-700 items-center text-xs'>Contact Us <IoIosArrowForward /></div>
+        <RiMenu3Fill className=' text-2xl lg:hidden fill-blue-600 cursor-pointer' onClick={navMenu}/>
     
     </div>
   )

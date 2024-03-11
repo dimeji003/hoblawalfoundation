@@ -1,9 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function page() {
   return (
     <div className='w-[80%] m-auto py-14'>
+
         <h1 className='text-center text-xl border-b-2 border-red-700 w-[80%] font-bold md:w-60 m-auto md:mt-16'>ABOUT THE CHAIRMAN</h1>
+      <Image src='/hoblawal.jpg' height={200} width={200} className='w-[50%] m-auto rounded-full mt-9'/>
         <p className='py-4 text-sm leading-7'>Engr. Hamed Olugbenga Babajide LAWAL has been the Managing Director/Chief Executive Officer of Messrs. . Consteng Limited since inception in 1982 to date. H.O.B. is a 1972 graduate ofthe Elite Ahmadu Bello University Zaria, Department of Civil Engineering where he specialized in the design and construction of structural formwork systems. His working experience started with the Dutch firm, Steven Group where he had a challenging and inspiring career till he resigned in 1980 to team up with fellow Nigerian to establish Moulds (Nig.) Limited. He was the Pioneer Technical Director of Moulds Nig Limited till the inception of Consteng Limited in1982. A firm believer in the principle of Total Quality Management (TQM) and Management By Objective (MBO) and planning, Engr. Lawal is a registered Chartered Civil Engineer. Fellow Life Member of. Nigerian Society Engineers (NSE). He is also a Fellow of InstitItion of Civil Engineers of Great Britain (FICE) and the Nigerian Institution of Engineers (FNICE). 
 
 Engr. Lawal identifies with his root, the community and the less privileged through philanthropy and membership of Ijebu Muslim College Old Students Association (IMCOSA), Egbe Bobajolu Okunrin ljebuland, Ijebu Ode Metropolitan Club and Lions Clubs International. He was a pioneer recipient of IMOSA Merit Award and served as its National President (1998— 2001). He is a past Chairman, Board of Governors of Ijebu Muslim College. HOB was the first recipient of the Fellowship Award of Metropolitan Club (FMC) and served as its Lord Mayor (1991/92). He is the Chairman of the club&apos;s business venture — Metro Arena Board of Directors. Engr Lawal is presently serving as the Babalaje of Egbe Bobajolu of Ijebuland.

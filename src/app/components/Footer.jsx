@@ -7,7 +7,7 @@ export default function Footer() {
     <div className='md:py-20 bg-blue-50 md:px-32 p-9 flex md:flex-row flex-col gap-10 justify-between'>
         <div className='flex flex-col gap-6'>
             <h1 className='font-bold text-2xl'>H.O.B LAWAL Foundation</h1>
-            <p>7 oreta road, Ikorodu</p>
+            <p>16 oreta road, Igbogbo, Ikorodu</p>
             <h2 className='font-bold'>Newsletter</h2>
             <div className='border-b border-blue-600 flex flex-row items-center w-60 justify-between'><input type="email" className='bg-blue-50 text-sm py-1' placeholder='Input your email'/><GoArrowRight className='text-blue-700 font-extrabold' /></div>
             

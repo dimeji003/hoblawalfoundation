@@ -5,7 +5,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 export default function Contact() {
   return (
-    <div className='md:flex sm:flex hidden md:flex-row items-center h-28 w-[100%] '>
+    <div className='lg:flex hidden md:flex-row items-center h-28 w-[100%] '>
         <div className='flex flex-row items-center bg-blue-50 h-[100%] w-[33%] place-content-center gap-6'>
             <div>
               <IoPhonePortraitSharp className='bg-white rounded-[50%] p-4 text-5xl' />

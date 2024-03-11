@@ -45,7 +45,7 @@ const teamMembers = [
 export default function page() {
 
   const team = teamMembers.map(member =>(
-    <section className='flex flex-col gap-1 items-center'>
+    <section key={member.id} className='flex flex-col gap-1 items-center'>
       <Image src={`/${member.image}.jpg`} alt={member.name} height={300} width={250} className='rounded-2xl' />
       <h1 className='text-center font-bold text-xl'>{member.name}</h1>
       <em className='text-sm text-red-700'>{member.position}</em>

@@ -26,7 +26,7 @@ const images = [
 
 export default function page() {
     const gallery = images.map(image =>(
-        <div>
+        <div key={image.id}>
 
             <Image src={`/${image.image}.jpg`} height={200} width={200} className='shadow-2xl' />
         </div>

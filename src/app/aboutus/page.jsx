@@ -19,7 +19,7 @@ const teamMembers = [
   {
     id: 3,
     name: 'Mr Abiodun Adesina',
-    image: 'hoblawal',
+    image: 'abiodun',
     position: '(Member)',
     socialLink: 'https://example.com/davidjohnson'
   },
@@ -63,7 +63,7 @@ export default function page() {
       <p className='text-xs text-gray-500'>Our foundation is dedicated to addressing social challenges and making a positive impact within communities. Our goals encompass alleviating suffering, promoting equality, and fostering empowerment among those in need. We strive to create sustainable change by tackling root causes such as poverty and lack of access to essential services like education and healthcare. Through our efforts, we aim to inspire compassion and solidarity, fostering a more inclusive society where everyone has the opportunity to thrive.</p>
 
       <h1 className='mt-16 font-bold text-2xl'>Our <span className='text-red-700'>Selfless</span> Team</h1>
-     <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-7 gap-14'>
+     <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 py-7 gap-14 md:w-[80%] mt-9 m-auto'>
       {team}
      </div>
 

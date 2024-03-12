@@ -28,14 +28,14 @@ export default function page() {
     const gallery = images.map(image =>(
         <div key={image.id}>
 
-            <Image src={`/${image.image}.jpg`} height={200} width={200} className='shadow-2xl' />
+            <Image src={`/${image.image}.jpg`} height={200} width={300} className='shadow-2xl' />
         </div>
     ))
   return (
     <div className='py-16'>
         <h1 className='text-center text-3xl pb-8 text-red-700'>GALLERY</h1>
 
-        <div className='grid grid-cols-2 md:grid-cols-3 sm:grid-cols-2 gap-8 w-[90%] m-auto '>
+        <div className='grid grid-cols-2 lg:grid-cols-4 sm:grid-cols-2 gap-3 w-[90%] m-auto '>
             {gallery}
     
         </div>

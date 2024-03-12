@@ -16,7 +16,7 @@ export default function Gallery() {
         
         </div>
         <Link href='/gallery'>
-        <div className='text-xs text-center w-[30%] rounded-2xl text-white mb-[-20px] p-3 m-auto bg-red-700'>ALL PHOTOS</div>
+        <div className='text-xs text-center w-[30%] rounded-2xl text-white mb-[-20px] lg:mb-[-100px] p-3 m-auto bg-red-700'>ALL PHOTOS</div>
         </Link>
     </div>
     </div>

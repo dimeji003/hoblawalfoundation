@@ -42,15 +42,19 @@ export default function Navbar() {
             <Link href='/hoblawal' onClick={leaveNav} >
             <li>ENGR H.O.B LAWAL</li>
             </Link>
+            <Link href='/contactus' onClick={leaveNav}>
             <li className='md:hidden'>CONTACT US</li>
+            </Link>
             <Link href='/donate' onClick={leaveNav}>
             <li className='bg-blue-700 md:bg-white text-white md:text-blue-700 rounded-2xl p-2 text-sm md:text-xs'>DONATE</li>
             </Link>
             
             
         </ul>
+        <Link href='/contactus' >
         <div className='lg:flex w-36 text-center flex-row gap-2 hidden   p-3 rounded-3xl text-black border-2 border-blue-700 items-center text-xs'>Contact Us <IoIosArrowForward /></div>
-        <RiMenu3Fill className=' text-2xl lg:hidden fill-blue-600 cursor-pointer' onClick={navMenu}/>
+        </Link>
+        <RiMenu3Fill className='text-2xl lg:hidden fill-blue-600 cursor-pointer' onClick={navMenu}/>
     
     </div>
   )

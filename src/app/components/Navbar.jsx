@@ -46,7 +46,7 @@ export default function Navbar() {
             <li className='md:hidden'>CONTACT US</li>
             </Link>
             <Link href='/donate' onClick={leaveNav}>
-            <li className='bg-blue-700 md:bg-white text-white md:text-blue-700 rounded-2xl p-2 text-sm md:text-xs'>DONATE</li>
+            <li className='bg-blue-700 md:bg-white text-white md:text-blue-700 rounded-2xl p-3 text-xs'>DONATE</li>
             </Link>
             
             

@@ -1,6 +1,8 @@
 import React from 'react'
+import CopyNumberButton from '../components/Copynumber'
 
 export default function page() {
+  const numberToCopy = '0586944234'
   return (
     <div className='py-20 pb-48 flex flex-col gap-3'>
         <h1 className='text-center text-3xl'>Be The <span className='text-red-700'>Change</span></h1>
@@ -23,7 +25,8 @@ export default function page() {
             
             
         </div>
-        <button className='text-center bg-blue-900 w-60 m-auto text-white text-xs p-2 mt-5 rounded-2xl'>COPY ACCOUNT NUMBER</button>
+        <button ><CopyNumberButton number={numberToCopy} /></button>
+        
     </div>
   )
 }

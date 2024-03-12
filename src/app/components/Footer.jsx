@@ -1,5 +1,6 @@
 import React from 'react'
 import { GoArrowRight } from "react-icons/go";
+import { FaFacebookF } from "react-icons/fa6";
 
 
 export default function Footer() {
@@ -16,7 +17,7 @@ export default function Footer() {
 
          
 
-        <div className='flex md:flex-row flex-row gap-40'>
+        <div className='flex md:flex-row flex-row gap-24'>
             <div className='flex gap-7 flex-col'>
                 <h2>Navigation</h2>
                 <p className='mt-2 text-xs text-gray-500'>About Us</p>
@@ -36,11 +37,14 @@ export default function Footer() {
 
 
 
-            <div>
+            <div className='flex flex-col gap-3'>
                 <h2>Follow us on</h2>
+                <div className='flex flex-row gap-5 items-center'>
+                <div><FaFacebookF className='text-blue-600'/></div>
                 <div></div>
                 <div></div>
-                <div></div>
+
+                </div>
             </div>
     </div>
     

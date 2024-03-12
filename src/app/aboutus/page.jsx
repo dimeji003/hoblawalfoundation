@@ -33,7 +33,7 @@ const teamMembers = [
   {
     id: 5,
     name: 'Barrister Bimbo Ojedokun',
-    image: 'abimbola',
+    image: 'bimbo',
     position: '(Member)',
     socialLink: 'https://example.com/michaelwilson'
   }

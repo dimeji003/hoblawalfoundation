@@ -45,8 +45,8 @@ export default function Navbar() {
             <Link href='/contactus' onClick={leaveNav}>
             <li className='md:hidden'>CONTACT US</li>
             </Link>
-            <Link href='/donate' onClick={leaveNav}>
-            <li className='bg-blue-700 md:bg-white text-white md:text-blue-700 rounded-2xl p-3 text-xs'>DONATE</li>
+            <Link href='/donate' onClick={leaveNav} className='bg-blue-700 md:bg-transparent text-white md:text-blue-700 md:rounded-none rounded-2xl'>
+            <li >DONATE</li>
             </Link>
             
             

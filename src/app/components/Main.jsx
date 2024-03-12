@@ -38,12 +38,12 @@ export default function page() {
             <div className='flex flex-col items-center gap-3  p-5 rounded-[4px] bg-yellow-100 shadow-xl'>
                 <SiBookstack className='text-5xl text-blue-700'/>
                 <h2 className='flex flex-row gap-2 items-center'><GoDotFill className='text-red-700'/>Scholarship<GoDotFill className='text-red-700'/></h2>
-                <p className='text-sm text-gray-500'>Granting Scholarships to Indigents</p>
+                <p className='text-sm text-gray-500 text-center'>Granting Scholarships to Indigents</p>
             </div>
             <div className='flex flex-col items-center gap-3 bg-red-100 p-5 rounded-[4px] shadow-xl'>
             <GiLindenLeaf className='text-5xl text-blue-700'/>
             <h2 className='flex flex-row gap-2 items-center'><GoDotFill className='text-red-700'/>Environment<GoDotFill className='text-red-700'/></h2>
-            <p className='text-sm text-gray-500'>Helping to live life cleaner</p>
+            <p className='text-sm text-gray-500 text-center'>Helping to live life cleaner</p>
 
 
                 

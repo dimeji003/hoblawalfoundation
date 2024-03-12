@@ -27,10 +27,18 @@ export default function Footer() {
             <div className='flex md:flex-row flex-row gap-24'>
                 <div className='flex gap-7 flex-col'>
                     <h2>Navigation</h2>
+                    <Link href="/aboutus">
                     <p className='mt-2 text-xs text-gray-500'>About Us</p>
-                    <p className='text-xs text-gray-500'>Services</p>
+                    </Link>
+                    <Link href="/donate">
+                    <p className='text-xs text-gray-500'>Donate</p>
+                    </Link>
+                    <Link href="/contactus">
                     <p className='text-xs text-gray-500'>Contact Us</p>
+                    </Link>
+                    <Link href="/">
                     <p className='text-xs text-gray-500'>Home</p>
+                    </Link>
                 </div>
                 
             </div>
@@ -53,7 +61,7 @@ export default function Footer() {
     
         </div>
         
-                <p className='text-center text-xs flex lg:flex-row flex-col items-center gap-4 lg:w-[45%] m-auto text-gray-500'>Site Developed by Lawal Oladimeji <div className='flex flex-row items-center gap-1'><FaPhoneAlt className='text-blue-600'/>: <span>+(234)-816-390-1595</span></div><div className='flex flex-row items-center gap-1'><IoMdMailUnread className='text-blue-600'/><span>oladimejilawal14@gmail.com</span></div> </p>
+                <p className='text-center text-xs flex lg:flex-row flex-col items-center gap-4 lg:w-[45%] m-auto text-gray-500 pt-8'>Site Developed by Lawal Oladimeji <Link href="tel:+2348163901595"><div className='flex flex-row items-center gap-1'><FaPhoneAlt className='text-blue-600'/>: <span>+(234)-816-390-1595</span></div></Link> <Link href="mailto:oladimejilawal14@gmail.com"><div className='flex flex-row items-center gap-1'><IoMdMailUnread className='text-blue-600'/><span>oladimejilawal14@gmail.com</span></div></Link> </p>
     </div>
   )
 }

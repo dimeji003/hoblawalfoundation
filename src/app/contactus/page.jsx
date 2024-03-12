@@ -25,7 +25,7 @@ export default function page() {
                 </div>
                 <div className='flex flex-row gap-11 mt-10'><Link href='https://www.facebook.com/profile.php?id=100080090636438&mibextid=kFxxJD' className='bg-blue-400 rounded-full p-3'><span ><FaFacebookF /></span></Link><span className='bg-blue-400 rounded-full p-3'><BsInstagram /></span><span className='bg-blue-400 rounded-full p-3'> <FaWhatsapp /></span></div>
             </div>
-            <div className='bg-white m-auto py-5 px-5  lg:px-9 w-[90%] rounded-xl flex flex-col gap-6'>
+            <div className='bg-white m-auto py-5 px-5  lg:px-9 w-[90%] lg:w-[40%] rounded-xl flex flex-col gap-6'>
                 <div className='w-[100%] m-auto'>
                     <p className='text-sm'>Your Name</p>
                     <input type="text" className='border border-gray-400 rounded-[5px] w-[100%]'/>

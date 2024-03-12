@@ -28,8 +28,8 @@ export default function Navbar() {
         <Image src= '/homepicture.jpg' alt="hob lawal foundation" height={50} width={50} className='m-auto ' />
         </div>
         
-        <ul className={`flex md:flex-col lg:flex-row place-content-center bg-blue-50 z-50 w-[100%] items-center md:bg-white fixed left-0 md:relative top-0 bottom-0 flex-col gap-11 md:text-blue-700 text-black md:text-xs text-xl transition-transform transform ease-in-out duration-500 ${showNav ? "translate-x-0" : "-translate-x-full sm:hidden lg:flex lg:translate-x-0"} `}>
-            <MdCancel className='md:hidden absolute top-3 right-3 text-3xl cursor-pointer' onClick={navMenu} />
+        <ul className={`flex md:flex-col lg:flex-row place-content-center bg-blue-50 z-50 w-[100%] items-center md:bg-white fixed left-0 lg:relative top-0 bottom-0 flex-col gap-11 md:text-blue-700 text-black md:text-xs text-xl transition-transform transform ease-in-out duration-500 ${showNav ? "translate-x-0" : "-translate-x-full lg:translate-x-0"} `}>
+            <MdCancel className='lg:hidden absolute top-3 right-3 text-3xl cursor-pointer' onClick={navMenu} />
             <Link href='/' onClick={leaveNav}>
             <li>HOME</li>
             </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
             <Link href='/contactus' onClick={leaveNav}>
             <li className='md:hidden'>CONTACT US</li>
             </Link>
-            <Link href='/donate' onClick={leaveNav} className='bg-blue-700 md:bg-transparent text-white md:text-blue-700 md:rounded-none rounded-2xl'>
+            <Link href='/donate' onClick={leaveNav} className='bg-blue-700 lg:bg-transparent text-white lg:text-blue-700 lg:rounded-none rounded-2xl p-3 lg:p-0'>
             <li >DONATE</li>
             </Link>
             

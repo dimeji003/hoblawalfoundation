@@ -15,7 +15,7 @@ export default function Footer() {
             <div className='flex flex-col gap-6'>
                 <h1 className='font-bold text-2xl'>H.O.B LAWAL Foundation</h1>
                 <p>16 oreta road, Igbogbo, Ikorodu</p>
-                <div className='border border-blue-600 w-[40%] rounded-lg'><Image src="/gallery5.jpg" height={200} width={200} /></div>
+                <div className='border-4 border-blue-600 w-[40%] rounded-lg'><Image src="/gallery5.jpg" height={200} width={200} /></div>
                 
                 
                 
@@ -24,7 +24,7 @@ export default function Footer() {
     
              
     
-            <div className='flex md:flex-row flex-row gap-24'>
+            <div className='flex flex-row gap-24'>
                 <div className='flex gap-7 flex-col'>
                     <h2>Navigation</h2>
                     <Link href="/aboutus">
@@ -41,12 +41,6 @@ export default function Footer() {
                     </Link>
                 </div>
                 
-            </div>
-            
-        
-    
-    
-    
                 <div className='flex flex-col gap-3'>
                     <h2>Follow us on</h2>
                     <div className='flex flex-row gap-5 items-center'>
@@ -58,6 +52,12 @@ export default function Footer() {
     
                     </div>
                 </div>
+            </div>
+            
+        
+    
+    
+    
     
         </div>
         

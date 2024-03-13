@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export default function page() {
   return (
-    <div className='py-11'>
+    <div className='py-11 bg-gray-100'>
         <h1 className='text-center font-bold text-2xl'>Contact Us</h1>
         <p className='text-sm text-gray-600 text-center'>Any question or remarks? Just write us a message</p>
 

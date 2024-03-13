@@ -1,20 +1,20 @@
 @media screen and (max-width: 1024px){
 
     .main{
-        background-image: radial-gradient(rgba(15, 7, 7, 0.7), rgba(17, 6, 6, 0.636)), url(/cytonn-photography-n95VMLxqM2I-unsplash\ 4.jpg);
+        background-image: radial-gradient(rgba(15, 7, 7, 0.7), rgba(17, 6, 6, 0.736)), url(/cytonn-photography-n95VMLxqM2I-unsplash\ 4.jpg);
         background-size: cover
     }
 }
 @media screen and (min-width: 1025px){
     .main{
-        background-image: radial-gradient(rgba(15, 7, 7, 0.6), rgba(17, 6, 6, 0.636)), url(/cytonn-photography-n95VMLxqM2I-unsplash\ 2.jpg);
+        background-image: radial-gradient(rgba(15, 7, 7, 0.7), rgba(17, 6, 6, 0.736)), url(/cytonn-photography-n95VMLxqM2I-unsplash\ 2.jpg);
         background-size: cover
     }
 
 }
 @media screen and (max-width: 480px){
     .main{
-        background-image: radial-gradient(rgba(15, 7, 7, 0.7), rgba(17, 6, 6, 0.636)), url(/cytonn-photography-n95VMLxqM2I-unsplash\ 3.jpg);
+        background-image: radial-gradient(rgba(15, 7, 7, 0.7), rgba(17, 6, 6, 0.736)), url(/cytonn-photography-n95VMLxqM2I-unsplash\ 3.jpg);
         background-size: cover
     }
 

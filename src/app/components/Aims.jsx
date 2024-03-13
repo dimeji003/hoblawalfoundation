@@ -7,7 +7,7 @@ import { GiLindenLeaf } from "react-icons/gi";
 export default function Aims() {
   return (
     <div>
-        <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 py-20 w-[80%] m-auto lg:mt-[-150px] mt-[-150px]'>
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 py-20 w-[80%] m-auto lg:mt-[-150px] mt-[-150px] '>
             <div className='flex flex-col items-center gap-3 bg-blue-500 p-5 rounded-[4px] shadow-xl'>
             <FaHandBackFist className='text-5xl text-white' />
             <h2 className='flex flex-row gap-2 items-center'><GoDotFill className='text-red-700' />Empowerment<GoDotFill className='text-red-700'/></h2>

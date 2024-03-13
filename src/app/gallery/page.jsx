@@ -11,10 +11,8 @@ const images = [
     { id: 7, image: 'gallery7' },
     { id: 8, image: 'gallery8' },
     { id: 9, image: 'gallery9' },
-    { id: 10, image: 'gallery10' },
-    { id: 11, image: 'gallery11' },
-    { id: 12, image: 'gallery12' },
-    { id: 13, image: 'gallery13' },
+   
+    
     { id: 14, image: 'gallery14' },
     { id: 15, image: 'gallery15' },
     { id: 16, image: 'gallery16' },
@@ -22,6 +20,10 @@ const images = [
     { id: 18, image: 'gallery18' },
     { id: 19, image: 'gallery19' },
     { id: 20, image: 'gallery20' },
+    { id: 11, image: 'gallery22' },
+    { id: 12, image: 'gallery23' },
+    { id: 13, image: 'gallery24' },
+    { id: 10, image: 'gallery25' },
   ];
   
   

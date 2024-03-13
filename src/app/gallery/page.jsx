@@ -17,7 +17,11 @@ const images = [
     { id: 13, image: 'gallery13' },
     { id: 14, image: 'gallery14' },
     { id: 15, image: 'gallery15' },
-    { id: 16, image: 'gallery16' }
+    { id: 16, image: 'gallery16' },
+    { id: 17, image: 'gallery17' },
+    { id: 18, image: 'gallery18' },
+    { id: 19, image: 'gallery19' },
+    { id: 20, image: 'gallery20' },
   ];
   
   

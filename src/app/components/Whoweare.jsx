@@ -5,10 +5,10 @@ import Link from 'next/link';
 
 export default function Whoweare() {
   return (
-    <div className=' py-32 bg-gray-100 px-9'>
+    <div className=' py-20 bg-gray-100 px-9'>
         <div className='flex md:flex-row sm:flex-col flex-col justify-between gap-10 md:w-[90%] m-auto'>
             <div className='md:w-[50%] '>
-                <Image src='/whoweare.jpg' alt='help' height={100} width={300} className='w-[100%] h-72 border rounded-xl'/>
+                <Image src='/help.jpg' alt='help' height={100} width={300} className='w-[100%] h-72 border rounded-xl'/>
             </div>
             <div className='md:w-[50%] flex flex-col gap-3'>
                 <p className='text-xs text-red-700'>WHO WE ARE</p>
@@ -21,7 +21,7 @@ export default function Whoweare() {
                     
                 </ul>
                 <Link href='/aboutus'>
-                <button className='md:mt-9 bg-blue-700 text-xs p-2 rounded-sm w-20 text-white text-center'>About Us</button>
+                <button className='lg:mt-3 bg-blue-700 text-xs p-2 rounded-xl w-20 text-white text-center'>About Us</button>
                 </Link>
             </div>
         </div>

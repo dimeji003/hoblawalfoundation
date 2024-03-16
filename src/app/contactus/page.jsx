@@ -15,8 +15,8 @@ export default function page() {
 
         <div className='flex  flex-col gap-2 rounded-xl lg:w-[40%] w-[90%] md:w-[60%] m-auto my-24 p-10 bg-blue-800'>
             
-                <h1 className='text-3xl font-bold text-white'>Contact Information</h1>
-                <p className='text-sm font-light text-gray-400'>Send us a message today!</p>
+                <h1 className='text-3xl font-bold text-white text-center'>Contact Information</h1>
+                <p className='text-sm font-light text-gray-400 text-center'>Send us a message today!</p>
                 <div className='flex flex-col gap-10 mt-16'>
 
                     <Link href="tel:+2348057082893">

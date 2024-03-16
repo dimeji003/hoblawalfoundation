@@ -25,7 +25,9 @@ export default function Navbar() {
     <div className='flex md:flex-row lg:w-[100%] justify-between px-5  py-3  md:h-16 border-b-2 border-blue-600  items-center '>
         <div className='flex flex-row gap-3 items-end'>
 
+        <Link href='/'>
         <Image src= '/homepicture.jpg' alt="hob lawal foundation" height={60} width={60} className='m-auto ' />
+        </Link>
         
         </div>
 

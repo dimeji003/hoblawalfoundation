@@ -6,9 +6,9 @@ import Link from 'next/link';
 export default function Whoweare() {
   return (
     <div className=' py-20 bg-gray-100 px-9'>
-        <div className='flex md:flex-row sm:flex-col flex-col justify-between gap-10 md:w-[90%] m-auto'>
+        <div className='flex md:flex-row sm:flex-col flex-col justify-between gap-10 md:w-[90%] lg:w-[80%] m-auto'>
             <div className='md:w-[50%] '>
-                <Image src='/help.jpg' alt='help' height={100} width={300} className='w-[100%] h-72 border rounded-xl'/>
+                <Image src='/whoweare.jpg' alt='help' height={100} width={300} className='w-[100%] lg:w-[90%] h-72 border rounded-xl'/>
             </div>
             <div className='md:w-[50%] flex flex-col gap-3'>
                 <p className='text-xs text-red-700'>WHO WE ARE</p>

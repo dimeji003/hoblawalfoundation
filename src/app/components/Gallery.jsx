@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Gallery() {
   return (
-    <div className=' py-7'>
+    <div className=' py-20'>
 
     <div id='gallery' className='py-16 lg:py-20 md:py-8 border-b border-gray-500'>
         <h2 className='text-center border-b-2 border-yellow-500 w-[43%] m-auto md:w-[30%] lg:w-[25%]'>OUR <span className='text-red-700 text-2xl'>GALLERY</span></h2>
